@@ -31,16 +31,16 @@ weight = 1
 url = "https://github.com/yduman/"
 
 [[params.social]]
-name = "Twitter"
-icon = "fa-brands fa-x-twitter fa-2x"
+name = "Bluesky"
+icon = "fa-brands fa-bluesky fa-2x"
 weight = 2
-url = "https://x.com/yduman_dev"
+url = "https://bsky.app/profile/y-duman.bsky.social"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 3
-url = "https://x.com/yduman_dev"
+url = "https://www.linkedin.com/in/yadullah-duman-601594137"
 
 [[menu.main]]
 name = "Blog"

@@ -11,7 +11,7 @@ _Last updated: January 28, 2025_
 
 # Editor
 
-- VS Code or IntelliJ Ultimate
+- [Visual Studio Code](https://code.visualstudio.com/) or [IntelliJ Ultimate](https://www.jetbrains.com/idea/)
 - Fonts: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - Theme: [Dracula](https://draculatheme.com/)
 - Icons: [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
@@ -22,7 +22,7 @@ _Last updated: January 28, 2025_
 - Shell: [oh-my-zsh](https://ohmyz.sh/)
 - Prompt: [Starship](https://starship.rs/)
 - Theme: [Dracula](https://draculatheme.com/)
-- Font: [Fira Code](https://github.com/tonsky/FiraCode) Nerd Font
+- Font: [Fira Code Nerd Font](https://github.com/tonsky/FiraCode)
 - Tools: 
   - [atuin](https://github.com/atuinsh/atuin)
   - [delta](https://github.com/dandavison/delta)
@@ -34,7 +34,7 @@ _Last updated: January 28, 2025_
 
 # Desktop Apps
 
-- Browser: Brave
+- Browser: [Brave](https://brave.com/)
 - Password manager: [1Password](https://1password.com/)
 - Window manager: [Rectangle](https://rectangleapp.com/)
 - Keymaps: [Karabiner Elements](https://karabiner-elements.pqrs.org/)

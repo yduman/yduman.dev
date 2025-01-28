@@ -19,17 +19,14 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Get current date
-        id: date
-        run: echo "CURRENT_DATE=$(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_ENV
-
       - name: Deploy to GitHub Pages Repo
         uses: s0/git-publish-subdir-action@develop
-        with:
-          publish_dir: public
-          token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
-          destination_repo: yduman/yduman.github.io
-          destination_branch: main
-          commit_message: "Deployment ${{ env.CURRENT_DATE }}"
-          user_name: GitHub Actions
-          user_email: actions@github.com
+        env:
+          FOLDER: public
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          REPO: git@github.com:yduman/yduman.github.io.git
+          BRANCH: main
+          MESSAGE: "Deployment of {sha}"
+          COMMIT_NAME: GitHub Actions
+          COMMIT_EMAIL: actions@github.com

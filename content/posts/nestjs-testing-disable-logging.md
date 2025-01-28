@@ -12,7 +12,7 @@ tags = [
 ]
 +++
 
-This post will be very short. I want to share on how to deal with the Logger class when running NestJS unit tests. In one of our projects, we had a small issue, that when running tests, the logger would start logging when certain branches of the code. Obviously, these branches should log when running on production, but for tests, we didn't care and it was noise. The solution was fairly simple.
+This post will be very short. I want to share one approach on how to deal with the Logger class when running NestJS unit tests. In one of our projects, we had a small issue, that when running tests, the logger would start logging when certain branches of the code were reached. Obviously, these branches should log when running on production, but for tests, we didn't care much.
 
 ## Example Scenario
 
@@ -63,7 +63,7 @@ export class MyService {
 
 ## Disable desired log levels in tests
 
-Here, we inject "our own" logger and define how it should behave for error logs. In this case, it does nothing, as we wanted. So for tests, the dependency injection will select our modified logger and on production, we will use the default logger.
+Here, we inject "our own" logger and define how it should behave for error logs. In this case, it does nothing. So for tests, the dependency injection will select our modified logger and on production, we will use the default logger.
 
 ```ts
 describe("UserService Tests", () => {

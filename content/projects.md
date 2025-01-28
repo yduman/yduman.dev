@@ -1,11 +1,15 @@
 +++
 title = "Projects"
-description = "Listing of my side projects"
-date = "2024-08-11"
+description = "Side or Open Source Projects"
+date = "2025-01-28"
 author = "Yadullah Duman"
 +++
 
-Here are some side projects where I invested some good amount of time. They were mostly trying to solve problems that I encountered. Besides that, I am mainly busy with customer projects that won't be listed here.
+Here are some side and open source projects where I am currently investing or have invested some good amount of time. These are mostly projects that either solved my own problems or I found interesting enough for contribution. Besides these projects, I am mainly busy with customer projects that I won't list here for obvious reasons.
+
+## Currently Active
+
+[**quality.arc42.org**](https://github.com/arc42/quality.arc42.org-site) Quality requirements and goals for software and system architectures.
 
 ## Highlights
 

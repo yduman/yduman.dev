@@ -1,26 +1,28 @@
 +++
 title = "Uses"
 description = "What I use when working"
-date = "2024-08-11"
+date = "2025-01-28"
 author = "Yadullah Duman"
 +++
 
 Things I use to create software
 
+_Last updated: January 28, 2025_
+
 # Editor
 
 - VS Code or IntelliJ Ultimate
-- Fonts: [Fira Code](https://github.com/tonsky/FiraCode) or [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- Fonts: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - Theme: [Dracula](https://draculatheme.com/)
 - Icons: [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
 
 # Terminal
 
-- Emulator: [iTerm2](https://iterm2.com/)
+- Emulator: [Ghostty](https://ghostty.org/)
 - Shell: [oh-my-zsh](https://ohmyz.sh/)
 - Prompt: [Starship](https://starship.rs/)
 - Theme: [Dracula](https://draculatheme.com/)
-- Font: FiraCode Nerd Font
+- Font: [Fira Code](https://github.com/tonsky/FiraCode) Nerd Font
 - Tools: 
   - [atuin](https://github.com/atuinsh/atuin)
   - [delta](https://github.com/dandavison/delta)
@@ -32,7 +34,7 @@ Things I use to create software
 
 # Desktop Apps
 
-- Browser: Chrome
+- Browser: Brave
 - Password manager: [1Password](https://1password.com/)
 - Window manager: [Rectangle](https://rectangleapp.com/)
 - Keymaps: [Karabiner Elements](https://karabiner-elements.pqrs.org/)

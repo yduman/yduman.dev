@@ -28,6 +28,7 @@ _Last updated: January 28, 2025_
   - [delta](https://github.com/dandavison/delta)
   - [eza](https://github.com/eza-community/eza)
   - [lazygit](https://github.com/jesseduffield/lazygit)
+  - [lazydocker](https://github.com/jesseduffield/lazydocker)
   - [zoxide](https://github.com/ajeetdsouza/zoxide)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)

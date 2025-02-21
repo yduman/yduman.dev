@@ -7,7 +7,7 @@ author = "Yadullah Duman"
 
 Things I use to create software
 
-_Last updated: January 28, 2025_
+_Last updated: February 21, 2025_
 
 # Editor
 
@@ -25,10 +25,14 @@ _Last updated: January 28, 2025_
 - Font: [Fira Code Nerd Font](https://github.com/tonsky/FiraCode)
 - Tools: 
   - [atuin](https://github.com/atuinsh/atuin)
+  - [bat](https://github.com/sharkdp/bat)
   - [delta](https://github.com/dandavison/delta)
+  - [dive](https://github.com/wagoodman/dive)
   - [eza](https://github.com/eza-community/eza)
+  - [HTTPie](https://github.com/httpie/cli)
   - [lazygit](https://github.com/jesseduffield/lazygit)
   - [lazydocker](https://github.com/jesseduffield/lazydocker)
+  - [volta](https://github.com/volta-cli/volta)
   - [zoxide](https://github.com/ajeetdsouza/zoxide)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
@@ -39,9 +43,8 @@ _Last updated: January 28, 2025_
 - Password manager: [1Password](https://1password.com/)
 - Window manager: [Rectangle](https://rectangleapp.com/)
 - Keymaps: [Karabiner Elements](https://karabiner-elements.pqrs.org/)
-- Notes: [Obsidian](https://obsidian.md/)
+- Notes/Todo: [Obsidian](https://obsidian.md/)
 - Music: [Spotify](https://open.spotify.com/)
-- Todo: Regular macOS Reminders app
 
 # Hardware
 

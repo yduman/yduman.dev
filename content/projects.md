@@ -9,13 +9,15 @@ Here are some side and open source projects where I am currently investing or ha
 
 ## Currently Active
 
-[**quality.arc42.org**](https://github.com/arc42/quality.arc42.org-site) Quality requirements and goals for software and system architectures.
+😴
 
 ## Highlights
 
 [**retro**](https://github.com/MaibornWolff/retro) Self-hostable web-app designed for remote retrospectives and planning poker sessions.
 
 ## Retired
+
+[**quality.arc42.org**](https://github.com/arc42/quality.arc42.org-site) Quality requirements and goals for software and system architectures.
 
 [**rmby**](https://github.com/yduman/rmby) Node.js library with a fluent API for async file removal
 

@@ -7,12 +7,12 @@ author = "Yadullah Duman"
 
 Things I use to create software
 
-_Last updated: February 21, 2025_
+_Last updated: December 08, 2025_
 
 # Editor
 
-- [Visual Studio Code](https://code.visualstudio.com/) or [IntelliJ Ultimate](https://www.jetbrains.com/idea/)
-- Fonts: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Fonts: [Maple Mono](https://github.com/subframe7536/maple-font)
 - Theme: [Dracula](https://draculatheme.com/)
 - Icons: [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
 
@@ -22,7 +22,8 @@ _Last updated: February 21, 2025_
 - Shell: [oh-my-zsh](https://ohmyz.sh/)
 - Prompt: [Starship](https://starship.rs/)
 - Theme: [Dracula](https://draculatheme.com/)
-- Font: [Fira Code Nerd Font](https://github.com/tonsky/FiraCode)
+- Font: [Fira Code Nerd Font](https://github.com/tonsky/FiraCode) or [Maple Mono Nerd Font](https://github.com/subframe7536/maple-font)
+- Coding Agent: [Claude Code](https://www.claude.com/product/claude-code)
 - Tools: 
   - [atuin](https://github.com/atuinsh/atuin)
   - [bat](https://github.com/sharkdp/bat)
@@ -39,18 +40,19 @@ _Last updated: February 21, 2025_
 
 # Desktop Apps
 
-- Browser: [Brave](https://brave.com/)
+- Browser: [Chrome](https://www.google.com/chrome/)
 - Password manager: [1Password](https://1password.com/)
 - Window manager: [Rectangle](https://rectangleapp.com/)
 - Keymaps: [Karabiner Elements](https://karabiner-elements.pqrs.org/)
 - Notes/Todo: [Obsidian](https://obsidian.md/)
 - Music: [Spotify](https://open.spotify.com/)
+- AI Research: [Claude Desktop](https://www.claude.com/download)
 
 # Hardware
 
 - MacBook Pro 16" M2 Max 64GB
 - Monitors: 2x Gigabyte M28U 4K 144Hz
 - Mic: Blue Yeti
-- Headphones: Beyerdynamic DT990 Pro
-- Keyboard: Monsgeek M1W with Monacokeys WoB keycaps and Akko V3 Piano Pro switches
+- Headphones: HyperX Cloud III
+- Keyboard: Evo80 ISO-DE with Neo Oat Switches
 - Mouse: Logitech G502

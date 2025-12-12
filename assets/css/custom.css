@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Maple Mono';
+    src: url('/fonts/MapleMono-Regular.ttf.woff2') format('woff2');
+}
+
+body,
+.navigation a,
+.navigation span,
+.list ul li .title {
+    font-family: 'Inter', sans-serif;
+}
+
+code, pre, .highlight code, .highlight pre {
+    font-family: 'Maple Mono', monospace;
+}
+
+/* Dark mode */
+body.colorscheme-dark {
+    background-color: #0a0a0a;
+    color: #e5e5e5;
+}
+
+body.colorscheme-dark a {
+    color: #60a5fa;
+}
+
+/* Light mode */
+body.colorscheme-light {
+    background-color: #fafafa;
+}
+
+/* Better reading experience */
+.content article {
+    line-height: 1.75;
+}
+
+/* Smoother code blocks */
+pre {
+    border-radius: 8px;
+}
+
+.navigation .navigation-title {
+    text-transform: none;
+}
+
+.content article a.external-link::after {
+    display: none;
+}

@@ -29,11 +29,11 @@ It works like this:
 
 ```js
 const user = {
-    name: "Alice",
-    password: "foobar123",
-    toJSON() {
-        return { name: this.name }
-    }
+  name: "Alice",
+  password: "foobar123",
+  toJSON() {
+      return { name: this.name }
+  }
 }
 
 JSON.stringify(user) // '{"name":"Alice"}'
@@ -43,9 +43,9 @@ Depending on the implementation, this can potentially throw:
 
 ```js
 const bad = {
-    toJSON() {
-        throw new Error("oops!")
-    }
+  toJSON() {
+      throw new Error("oops!")
+  }
 }
 
 JSON.stringify(bad) // ❌ Uncaught Error: oops!
@@ -104,9 +104,9 @@ const circularObj = {}
 circularObj.self = circularObj
 
 const toJsonObj = {
-    toJSON() {
-        throw new Error("oops!")
-    }
+  toJSON() {
+      throw new Error("oops!")
+  }
 }
 
 const getterObj = {

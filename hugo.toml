@@ -1,12 +1,12 @@
-baseURL = 'http://www.yduman.dev'
-title = "Yadullah Duman"
+baseURL = 'https://www.yduman.dev'
+title = "yduman.dev"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 pagination.pagerSize = 20
 
 [markup.highlight]
-style = "github-dark"
+style = "dracula"
 
 [taxonomies]
 category = "categories"
@@ -23,6 +23,8 @@ hideColorSchemeToggle = false
 avatarurl = "images/Profile.jpg"
 capitalizeListTitles = false
 enableTwemoji = true
+customCSS = ["css/custom.css"]
+faviconSVG = "/images/favicon.svg"
 
 [[params.social]]
 name = "GitHub"

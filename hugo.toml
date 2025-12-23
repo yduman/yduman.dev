@@ -4,6 +4,7 @@ theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 pagination.pagerSize = 20
+enableRobotsTXT = true
 
 [markup.highlight]
 style = "dracula"

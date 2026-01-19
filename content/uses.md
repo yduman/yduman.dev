@@ -7,7 +7,7 @@ author = "Yadullah Duman"
 
 Things I use to create software
 
-_Last updated: December 08, 2025_
+_Last updated: January 19, 2026_
 
 # Editor
 
@@ -38,13 +38,15 @@ _Last updated: December 08, 2025_
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-# Desktop Apps
+# Other Apps
 
-- Browser: [Chrome](https://www.google.com/chrome/)
+- Main browser: [Brave](https://brave.com/)
+- Browser manager: [Finicky](https://github.com/johnste/finicky)
 - Password manager: [1Password](https://1password.com/)
 - Window manager: [Rectangle](https://rectangleapp.com/)
+- Window borders: [JankyBorders](https://github.com/FelixKratz/JankyBorders)
 - Keymaps: [Karabiner Elements](https://karabiner-elements.pqrs.org/)
-- Notes/Todo: [Obsidian](https://obsidian.md/)
+- Notes/Todos: [Obsidian](https://obsidian.md/)
 - Music: [Spotify](https://open.spotify.com/)
 - AI Research: [Claude Desktop](https://www.claude.com/download)
 

@@ -7,7 +7,7 @@ author = "Yadullah Duman"
 
 Things I use to create software
 
-_Last updated: January 19, 2026_
+_Last updated: January 24, 2026_
 
 # Editor
 
@@ -22,7 +22,7 @@ _Last updated: January 19, 2026_
 - Shell: [oh-my-zsh](https://ohmyz.sh/)
 - Prompt: [Starship](https://starship.rs/)
 - Theme: [Dracula](https://draculatheme.com/)
-- Font: [Fira Code Nerd Font](https://github.com/tonsky/FiraCode) or [Maple Mono Nerd Font](https://github.com/subframe7536/maple-font)
+- Font: [Fira Code](https://github.com/tonsky/FiraCode)
 - Coding Agent: [Claude Code](https://www.claude.com/product/claude-code)
 - Tools: 
   - [atuin](https://github.com/atuinsh/atuin)
@@ -50,13 +50,15 @@ _Last updated: January 19, 2026_
 - Window borders: [JankyBorders](https://github.com/FelixKratz/JankyBorders)
 - Keymaps: [Karabiner Elements](https://karabiner-elements.pqrs.org/)
 - Notes/Todos: [Obsidian](https://obsidian.md/)
+- Sketches: [Goodnotes](https://www.goodnotes.com/)
 - Music: [Spotify](https://open.spotify.com/)
 - AI Research: [Claude Desktop](https://www.claude.com/download)
+- Dictation: [FluidVoice](https://github.com/altic-dev/FluidVoice/)
 
 # Hardware
 
 - MacBook Pro 16" M2 Max 64GB
-- Monitors: 2x Gigabyte M28U 4K 144Hz
+- Monitors: 2x Gigabyte M28U 4K 144Hz and iPad Pro, 12.9" (5th generation) as sidecar
 - Mic: Blue Yeti
 - Headphones: HyperX Cloud III
 - Keyboard: Evo80 ISO-DE with Neo Oat Switches

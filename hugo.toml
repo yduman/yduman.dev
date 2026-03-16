@@ -45,6 +45,14 @@ icon = "fa-brands fa-linkedin fa-2x"
 weight = 3
 url = "https://www.linkedin.com/in/yadullah-duman-601594137"
 
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 4
+url = "https://www.yduman.dev/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
 [[menu.main]]
 name = "Blog"
 weight = 1

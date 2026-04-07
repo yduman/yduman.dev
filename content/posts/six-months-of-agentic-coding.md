@@ -4,7 +4,7 @@ title = "Six Months of Agentic Coding in the Trenches: Lessons from a Brownfield
 date = "2025-12-09"
 description = "Learnings using Claude Code for six months in a real customer project"
 categories = ["Agentic Coding"]
-tags = ["Agentic Coding", "Claude Code"]
+tags = ["Agentic Coding", "Claude Code", "AI"]
 +++
 
 {{< notice note >}}

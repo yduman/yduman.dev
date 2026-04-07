@@ -4,7 +4,7 @@ title = "My Debugging Workflow with Agents"
 date = "2026-03-16"
 description = "Three levels of solving bugs with the help of coding agents like Claude Code"
 categories = ["Agentic Coding"]
-tags = ["Agentic Coding", "Claude Code", "Debugging"]
+tags = ["Agentic Coding", "Claude Code", "Debugging", "AI"]
 +++
 
 {{< notice note >}}

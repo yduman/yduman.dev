@@ -73,4 +73,9 @@ name = "Projects"
 weight = 4
 url  = "projects/"
 
+[[menu.main]]
+name = "Talks"
+weight = 5
+url  = "talks/"
+
 

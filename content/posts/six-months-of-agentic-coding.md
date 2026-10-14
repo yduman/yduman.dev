@@ -7,10 +7,6 @@ categories = ["Agentic Coding"]
 tags = ["Agentic Coding", "Claude Code", "AI"]
 +++
 
-{{< notice note >}}
-This post is fully written by me and was checked for typos and grammar errors with Claude.
-{{< /notice >}}
-
 Let's recap my journey of using various AI tools in a real customer project. The project was going for two years and focused primarily on modernization. What started as legacy hell, is now more maintainable. Deployments are more frequent and the customer gained more confidence developing new features.
 
 The journey is split into three waves of AI usage and the last six months represent the last, third wave, which changed the way I work completely.

@@ -7,10 +7,6 @@ categories = ["Agentic Coding"]
 tags = ["Agentic Coding", "Claude Code", "Debugging", "AI"]
 +++
 
-{{< notice note >}}
-This post is fully written by me and was checked for typos and grammar errors with Claude.
-{{< /notice >}}
-
 Debugging is where agents shine a lot. I [briefly touched on this](/posts/six-months-of-agentic-coding/#fixing-bugs-faster) in my previous post and I think this topic deserves its own deep dive, because the workflow is more nuanced than just "paste the error and let the agent fix it". Over months of real-world usage, I developed three levels of debugging that I apply based on how nasty the bug is.
 
 Most bugs are simple. You paste the error, add some context, and the agent nails it. But some bugs fight back. For those, you need a system. Here are my three levels.

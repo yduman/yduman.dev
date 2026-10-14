@@ -1,0 +1,45 @@
++++
+authors = ["Yadullah Duman"]
+title = "The Future of Personal Coding Harnesses"
+date = "2026-10-13"
+description = "Why the next generation of coding agents will be shaped by their users, not their vendors"
+categories = ["Agentic Coding"]
+tags = ["Agentic Coding", "AI"]
++++
+
+_Why the next generation of coding agents will be shaped by their users, not their vendors._
+
+Some time passed since my last post. [As I was calling out on one of my previous posts last year](/posts/six-months-of-agentic-coding), lots of adoption is currently happening across companies, which keeps me very busy with work helping them in their transformation process.
+
+I still plan to post about my local setup and to revisit some points I made on my ["Lessons from a Brownfield Project"]((/posts/six-months-of-agentic-coding)) post, but this will probably come towards the end of this year.
+
+Nevertheless, one thing on my setup that changed is that I fully switched to Pi for some months now. Similar to Mario Zechner, I got frustrated with Claude Code since roughly the beginning of this year. I was lazy to switch to Pi back then, but the verbosity of Opus 5 along with my desire to run more things locally motivated me enough to fully switch. Now I run a combination of local models and an OpenAI subscription, all inside Pi. 
+
+And yes, I know Opus 5.5 made things better, but I don't care anymore about model capability. Models are already good enough and your bigger lever is your harness. For example, the brownfield project lessons I wrote about last year was a very complex project and we worked successfully with models like Sonnet 4. Success comes from harness engineering.
+
+Now having the full control with Pi, and looking how the agentic coding space evolves, I wanted to dump my brain about this topic.
+
+Most developers using AI coding agents today start by choosing a tool: Claude Code, Codex, Cursor, or something similar. Each comes with its own opinions about how an agent should work, which tools it should use, how it manages context, and what a typical development workflow looks like. You can customize parts of these systems, but the vendor still largely determines the experience. I suspect this is a temporary phase. As coding agents become more capable, developers will increasingly want control over the software surrounding the model. Rather than adapting their workflows to a general-purpose agent, they'll build agents that adapt to them. Pi, the open-source coding harness originally created by Mario Zechner, is one of the clearest examples of where this is heading.
+
+## The harness is your bigger lever
+
+A coding agent consists of two major pieces: the language model and the harness. The model provides the intelligence. The harness manages everything around it: tool execution, context management, session state, permissions, integrations, and the loop that allows the model to act on its environment. How much context an agent receives, which tools it can access, when it runs tests, and how it recovers from failure can have a substantial impact on its performance. A generic coding harness has to accommodate thousands of different workflows. Your own harness only needs to accommodate yours. Perhaps you want every implementation to start with a written plan. Maybe you prefer agents to work without planning, implement one small change, run targeted tests, and immediately continue. You might require a security review before touching authentication code or want a specialized context-management strategy for a large monorepo. None of these decisions is universally correct. They depend on the developer, the repository, and the task. That's precisely why harness customization is becoming so important.
+
+## Pi: An agent that can modify itself
+
+Mario Zechner built Pi after growing frustrated with the growing complexity and changing behavior of existing coding agents. His approach was to keep the core minimal and make the surrounding system programmable. Pi supports multiple model providers and exposes its functionality through extensions, skills, prompt templates, and configuration. Instead of shipping every conceivable workflow as a built-in feature, it lets users implement the behavior they need. But Pi has another particularly interesting property: you can ask Pi to change Pi. Imagine you want a custom workflow that automatically runs specific tests after editing a file, prevents modifications to protected paths without confirmation, and displays the current Git branch alongside test status. You can describe this directly inside Pi. Pi can inspect its own extension documentation, generate the necessary TypeScript code, and add the extension to your configuration. Run /reload, and the new behavior becomes available without rebuilding or forking the harness. You don't need to understand Pi's internals before attempting the customization. You can develop the extension together with the agent, inspect the implementation, test it, and iterate. This makes harness customization significantly more accessible. Instead of searching through settings, requesting features from maintainers, or writing plugins entirely by hand, you're using the agent itself to develop the environment in which it operates.
+
+## The idea is spreading
+
+Pi isn't the only project exploring this direction. DeepSeek Harness takes a similar approach with its "everything is a plugin" architecture. Its components, including tools, model adapters, and even the agent loop, are designed to be replaceable or configurable. More interestingly, DeepSeek Harness includes a Creator mode in which users can describe new capabilities through conversation and have the agent construct plugins for them. These systems point toward an agent interface that is no longer fixed at installation. You start with a capable foundation. As your requirements develop, the foundation develops with them. This doesn't necessarily mean everyone will maintain an entirely separate coding agent. A shared open-source runtime with a personal collection of extensions, instructions, and workflows may be the more practical outcome. The distinction is ownership of the workflow, rather than ownership of every line of infrastructure.
+
+## Everyone will have their own harness
+
+My prediction is that most developers who work with coding agents regularly will eventually have a personalized harness. It may start as a few instructions and custom commands. Over time, it will accumulate project conventions, integrations, verification procedures, context-management rules, and preferred ways of working. One developer might optimize for fast experimentation. Another might build strict review and verification gates into every change. A company might maintain a shared harness configuration that encodes its engineering standards, security requirements, and internal tooling. These configurations will evolve as the agents encounter new problems. There are obvious risks. Self-modifying harnesses can introduce bugs, unnecessary complexity, or unsafe behavior. Extensions still need testing, permissions still matter, and more customization isn't automatically better. Nor will managed tools such as Claude Code and Codex disappear. Many users will continue to prefer sensible defaults, and those products are becoming increasingly extensible themselves. But for frequent users, the value of accumulated customization will be difficult to ignore. Think about how developers treat their editors, terminals, and development environments today. The most invested users rarely work with untouched defaults. Their setup reflects years of preferences and small improvements. Coding agents are likely to follow a similar path, except that the agent can help build and maintain its own configuration. That's what makes Pi so interesting. It offers an early look at a future in which developers spend less time choosing between predefined agent experiences and more time developing their own. The best coding agent may eventually be the one you've spent months teaching how you work.
+ 
+## Further reading
+
+- Mario Zechner: [What I learned building an opinionated and minimal coding agent](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/) (November 2025). The original design rationale behind Pi, its minimal core, and the decision to give developers control over the agent.
+- Pi: [Official website](https://pi.dev/). Primary reference for Pi's extensions, self-customization, runtime configuration, and reload functionality.
+- DeepSeek: [DeepSeek Harness](https://www.deepseek.com/en/harness/). Official overview of its plugin architecture and conversational plugin creation through Creator mode.
+- François Zaninotto: [The State of AI Harness Engineering 2026](https://marmelab.com/blog/2026/09/24/the-state-of-ai-harness-engineering-2026.html) (September 2026). A survey of open-source harnesses, including their customization patterns, verification practices, and the growing role of AI-generated harness code.

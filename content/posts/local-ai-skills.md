@@ -7,10 +7,6 @@ categories = ["Enterprise AI"]
 tags = ["MLOps", "Local AI", "AI"]
 +++
 
-{{< notice note >}}
-This post is fully written by me and was checked for typos and grammar errors with Claude.
-{{< /notice >}}
-
 We talk a lot about agentic coding, but there is a skillset emerging that I think is far more valuable and far less discussed.
 
 I have been [deep in agentic coding workflows](/posts/six-months-of-agentic-coding/) and [debugging with agents](/posts/debugging-workflow-with-agents/). Through that work, I started noticing that the entire conversation around AI assumes that cloud APIs are a given. That assumption is breaking down fast.

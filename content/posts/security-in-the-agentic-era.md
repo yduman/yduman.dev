@@ -7,10 +7,6 @@ categories = ["Enterprise AI"]
 tags = ["Agentic Security", "Agentic Coding", "Local AI", "AI"]
 +++
 
-{{< notice note >}}
-This post was fully written by me. Typos and grammar errors were checked with Claude.
-{{< /notice >}}
-
 In [my last post](/posts/local-ai-skills/) I mentioned that _"security is not optional"_, touching briefly on the lethal trifecta, data leakage and sandboxing.
 With this post I want to show some concrete examples of why security is extremely important, especially when rolling out agentic workflows in enterprises.
 
